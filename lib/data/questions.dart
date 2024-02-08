@@ -7,7 +7,7 @@ const questions = [
       'Widgets',
       'Components',
       'Blocks',
-      'Finctions',
+      'Functions',
     ],
   ),
   QuizQuestions(
