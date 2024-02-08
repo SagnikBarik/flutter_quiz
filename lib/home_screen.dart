@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 35),
-          FilledButton.icon(
+          ElevatedButton.icon(
             onPressed: startQuiz,
             style: FilledButton.styleFrom(
               backgroundColor: Colors.white,
