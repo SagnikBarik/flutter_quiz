@@ -12,12 +12,9 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Opacity(
-            opacity: 0.8,
-            child: Image.asset(
-              'assets/images/logo.png',
-              width: 120,
-            ),
+          Image.asset(
+            'assets/images/logo.png',
+            width: 120,
           ),
           const SizedBox(height: 25),
           Text(

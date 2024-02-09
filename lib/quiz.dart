@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_quiz/data/questions.dart';
 import 'package:flutter_quiz/home_screen.dart';
 import 'package:flutter_quiz/questions_screen.dart';
@@ -32,6 +33,13 @@ class _QuizState extends State<Quiz> {
     }
   }
 
+  void restartQuiz(){
+    setState((){
+      selectedAnswers = [];
+      activeScreen = 'questions-screen';
+    });
+  }
+
   @override
   Widget build(context) {
     Widget screen = HomeScreen(switchScreen);
@@ -42,6 +50,7 @@ class _QuizState extends State<Quiz> {
     } else if (activeScreen == 'results-screen') {
       screen = ResultsScreen(
         chosenOptions: selectedAnswers,
+        onRestart: restartQuiz,
       );
     }
 
