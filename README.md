@@ -4,7 +4,7 @@ A simple quiz app built using flutter that test your knowledge of flutter. The F
 
 ### Screenshots
 <p>
-<img src="https://github.com/SagnikBarik/flutter_quiz/assets/71597950/6b58d965-f6b4-4cb4-bdfe-b6a1583ba361" width="30%" style="padding-right:10px">
-<img src="https://github.com/SagnikBarik/flutter_quiz/assets/71597950/a886bbb5-d56d-4cb7-9235-42f2fa2c9ff3" width="30%" style="padding-right:10px">
-<img src="https://github.com/SagnikBarik/flutter_quiz/assets/71597950/96b26250-18b4-4ca7-a328-52796c267509" width="30%">
+<img src="screenshots/homescreen.png" width="30%" style="padding-right:10px">
+<img src="screenshots/questionScreen.png" width="30%" style="padding-right:10px">
+<img src="screenshots/resultScreen.png" width="30%">
 </p>
